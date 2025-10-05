@@ -1,0 +1,13 @@
+{
+  "services_available": {
+    "jsonplaceholder": true,
+    "httpbin": true,
+    "reqres": false
+  },
+  "test_results": {
+    "Core Tests": "PASS",
+    "Performance Tests": "FAIL",
+    "Authentication Tests": "PASS"
+  },
+  "all_tests_passed": false
+}

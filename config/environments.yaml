@@ -1,0 +1,13 @@
+base_urls:
+  jsonplaceholder: "https://jsonplaceholder.typicode.com"
+  reqres: "https://reqres.in/api"
+  httpbin: "https://httpbin.org"
+  gorest: "https://gorest.co.in/public/v2"
+
+auth_tokens:
+  gorest: "4b5cabace113242bb236f1b0d793b9f0d99b800d3877bd282a0d074fb629df50"
+
+timeouts:
+  short: 1
+  medium: 2
+  long: 5

@@ -1,0 +1,28 @@
+# Production configuration
+base_urls:
+  jsonplaceholder: "https://jsonplaceholder.typicode.com"
+  reqres: "https://reqres.in/api"
+  httpbin: "https://httpbin.org"
+  gorest: "https://gorest.co.in/public/v2"
+
+# Update this with your actual GoRest token
+auth_tokens:
+  gorest: "YOUR_ACTUAL_GOREST_TOKEN_HERE"
+
+timeouts:
+  short: 1
+  medium: 2
+  long: 5
+
+# Retry configuration
+retry:
+  max_attempts: 3
+  backoff_factor: 1
+  status_forcelist: [500, 502, 503, 504]
+
+# Performance thresholds
+performance:
+  single_get: 0.5
+  collection_get: 1.0
+  post_request: 1.0
+  concurrent_requests: 2.0
