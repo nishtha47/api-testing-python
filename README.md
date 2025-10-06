@@ -47,7 +47,7 @@ pytest
 ```
 
 ```
-venv) nishthamishra@Nishthas-MacBook-Pro api-testing-python % # Run the robust test suite         
+ # Run the robust test suite         
 python run_robust_tests.py
 
 # Or run specific reliable test groups
