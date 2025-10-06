@@ -46,6 +46,18 @@ __To run a test, you can simply write the following command on Terminal__:
 pytest
 ```
 
+```
+venv) nishthamishra@Nishthas-MacBook-Pro api-testing-python % # Run the robust test suite         
+python run_robust_tests.py
+
+# Or run specific reliable test groups
+pytest tests/test_crud_operations.py tests/test_error_handling.py tests/test_data_validation.py -v
+
+# Run with detailed output
+pytest -v --tb=short
+
+```
+
 __To run and get details of all the executed test, you can simply write the following command on Terminal__:
 ```sh
 pytest -rA
